@@ -1,0 +1,40 @@
+.small {
+
+    float: right;
+    font-size: larger;
+    font-weight: 700;
+    color: #8549d5 !important;
+    font-style: italic;
+    font-size: unset;
+}
+
+.desc {
+    margin: unset;
+}
+
+.fw-bold {
+    color: #00d82f;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.edit {
+    background: #2329db;
+    color: white;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.del {
+    background: red;
+    color: white;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#msg {
+    color: red;
+    font-size: small;
+    font-weight: 600;
+}

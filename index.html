@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">Todo-App</a>
+        </nav>
+    </header>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>Create Task</h2>
+                <form class="" id="todoform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <p>Task Title<span style="color: red;">*</span></p>
+                    <input type="text" class="form-control" name="title" id="title">
+                    <div id="msg"></div>
+                    <br>
+                    <p>Due Date</p>
+                    <input type="date" class="form-control" name="date" id="date">
+                    <br>
+                    <p>Description</p>
+                    <textarea name="" class="form-control" id="description" cols="30" rows="5"></textarea>
+                    <br>
+                    <button type="submit" id="addnew" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-8">
+                <h2>Tasks</h2>
+                <hr>
+                <div id="tasklist"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js" ></script>
+</body>
+
+</html>
